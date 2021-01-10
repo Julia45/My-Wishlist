@@ -1,0 +1,478 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.fa-search {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  font-size: 13px;
+}
+
+.brand-footer {
+  letter-spacing: 9px;
+}
+
+.navbar-brand {
+  line-height: 0.7;
+}
+
+.shopping-cart-container {
+  padding: 10px 15px;
+}
+
+a.active:first-letter {
+  border-bottom: 2px solid rgb(227, 69, 69);
+}
+
+a.active {
+  color: #c33 !important;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.products-amount {
+  right: -11px;
+  border-radius: 11px;
+  top: 10px;
+  background-color: black;
+  width: 25px;
+  height: 24px;
+  justify-content: center;
+  font-size: 13px;
+  display: flex;
+  border: 2px solid white;
+}
+
+.clear-filter,
+.filter-input {
+  outline: 2px solid black;
+}
+
+.fa-shopping-bag {
+  font-size: 20px;
+}
+
+.wishlist-container {
+  height: 150px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./assets/H35ELM.jpg);
+  background-size: 100%
+}
+
+.clear-button {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.goods-container img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.goods-container {
+  padding: 0px 120px;
+}
+
+.goods-container .container {
+  margin: 0px;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-shopping-cart,
+.fa-trash-alt {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.pagination {
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits {
+  display: flex;
+}
+
+.benefits .fas {
+  font-size: 23px;
+}
+
+.benefits p {
+  margin-bottom: 0.5rem;
+}
+
+.benefits p:nth-child(2) {
+  font-size: 10px;
+}
+
+.phone-item,
+.image-container,
+.phone-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container,
+.phone-info-container {
+  width: 100%;
+}
+
+.img-overlay {
+  background-color: black;
+  opacity: 0.75;
+  width: 100%;
+  top: 0px;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.phone-item p {
+  margin-bottom: 0.25rem;
+}
+
+.phone-item .dash {
+  width: 20px;
+  height: 2px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.row>* {
+  padding: 0px !important
+}
+
+.phone-item:hover .phone-item.dash {
+  visibility: hidden;
+}
+
+.phone-item:hover .phone-info-container {
+  background-color: rgb(240, 238, 238);
+}
+
+.phone-item:hover .cart-actions div {
+  background-color: rgb(227, 69, 69);
+  color: white;
+}
+
+.phone-item:hover .img-overlay {
+  display: flex;
+}
+
+.buttonOverlay {
+  background-color: transparent;
+}
+
+.navbar,
+.wishlist-container,
+.clear-button {
+  padding: 40px 170px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  padding: 45px 170px;
+  background-color: rgb(247, 247, 247);
+  margin: 0px !important;
+}
+
+.subscribe-text {
+  font-size: 12px;
+}
+
+.icons-social a {
+  width: 34px;
+  height: 35px;
+  display: inline-flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-social a:hover {
+  background-color: rgb(227, 69, 69);
+  border: none;
+}
+
+.icons-social a:hover i {
+  color: white;
+}
+
+#emailSubscribeInput {
+  width: 300px;
+  font-size: 15px;
+}
+
+.subscribeButton {
+  top: 6px;
+  right: 10px;
+}
+
+.after-pagination-hr {
+  height: 2px;
+}
+
+footer {
+  display: flex;
+  padding: 40px 185px;
+  justify-content: space-between;
+  background-color: lightgray;
+  font-size: 14px;
+  color: grey;
+}
+
+.payment-container {
+  display: flex;
+}
+
+.payment-container img {
+  height: 30px;
+}
+
+.slider {
+  overflow: hidden;
+  margin: 40px 200px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0px 30px 0px;
+}
+
+.tiny-border-right {
+  border-bottom: 2px solid black;
+  width: 20px;
+  top: 0px;
+  right: 0px;
+}
+
+.tiny-border-left {
+  border-bottom: 2px solid black;
+  width: 20px;
+  top: 0px;
+  left: 0px;
+}
+
+.slider__wrapper {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slider__item {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.slider__item hr {
+  margin: 2px;
+  width: 10%;
+  height: 3px;
+}
+
+.slider__item>div {
+  font-size: 14px;
+}
+
+.after-benefits-hr {
+  height: 2px !important;
+}
+
+.emailSubscribeInput-invalid {
+  border: 2px solid rgb(227, 69, 69);
+}
+
+.page-item.active .page-link {
+  color: rgb(227, 69, 69) !important;
+  background-color: transparent !important;
+  border: 2px solid black;
+}
+
+@media (max-width: 1240px) {
+  .navbar,
+  .wishlist-container,
+  .clear-button {
+    padding: 40px 130px;
+  }
+
+  footer {
+    padding: 30px 100px;
+  }
+
+  .goods-container {
+    padding: 0px 30px;
+  }
+
+  .form {
+    padding: 20px 110px;
+  }
+
+  .slider {
+    margin: 60px 135px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .form {
+    padding: 20px 30px
+  }
+}
+
+@media (max-width: 945px) {
+  .form-group {
+    flex-direction: column;
+  }
+
+  .subscribe-text {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .input-container {
+    justify-content: center;
+    display: flex;
+    margin: 15px 0px;
+  }
+
+  .icons-social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons-social a {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .subscribeButton {
+    right: 15px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .payment-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  .slider {
+    margin: 50px 30px;
+  }
+}
+
+@media (max-width: 1125px) {
+  .slider__item hr {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .benefits p:first-child {
+
+    font-size: 11px;
+  }
+
+  .benefits .fas {
+    font-size: 18px;
+    margin: 5px !important;
+  }
+
+  .benefits p:nth-child(2) {
+    font-size: 9px;
+  }
+
+  .navbar,
+  .wishlist-container,
+  .clear-button {
+    padding: 20px 30px;
+  }
+
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+  }
+
+  .clear-button {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .clear-button button {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    padding: 30px 20px;
+  }
+
+  .slider {
+    padding: 20px 10px;
+  }
+
+  .brand-footer {
+    letter-spacing: 7px;
+  }
+}
+
+@media (max-width: 630px) {
+  .payment-container div {
+    margin: 3px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .wishlist-container {
+    flex-direction: column;
+  }
+
+  .slider {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .tiny-border-left,
+  .tiny-border-right {
+    display: none;
+  }
+}

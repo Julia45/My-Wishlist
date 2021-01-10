@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/cbf673a7d4.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light align-middle">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger fs-3 text" href="#">Code<span class="text-dark fs-3 text">IT</span><br> <span
+          class="text-dark fs-6 text brand-footer">STORE</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5">
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark active" href="#">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">ALL BRANDS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">LATEST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">FEATURED</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">CONTACT</a>
+          </li>
+          <li>
+            <i class="fas fa-search"></i>
+          </li>
+        </ul>
+
+        <div class="shopping-cart-container border border-2 border-dark position-relative">
+          <i class="fas fa-shopping-bag text-danger"></i>
+          <span>$460.00</span>
+          <div class="products-amount position-absolute text-white">2</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid wishlist-container">
+    <div class="fs-2">MY WISHLIST</div>
+    <div class="text-dark fw-bold"><a href="#" class="text-dark text-decoration-none">HOME</a> <i
+        class="fas fa-angle-right px-1"></i>MY WISHLIST</div>
+  </div>
+
+  <div class="container-fluid clear-button">
+    <input type="text" placeholder="Search" class="mx-3 filter-input" style="height: 38px;">
+    <button type="button" class="btn clear-filter ">Clear List</button>
+  </div>
+
+  <div class="container goods-container">
+    <div class="row goods-wrapper">
+    </div>
+  </div>
+  <div class="container-fluid pagination">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination pagination-container">
+      </ul>
+    </nav>
+  </div>
+  <hr class="after-pagination-hr">
+
+  <div class="slider position-relative">
+    <div class="tiny-border-right position-absolute "></div>
+    <div class="tiny-border-left position-absolute"></div>
+    <div class="slider__wrapper">
+
+      <div class="slider__item">
+        <div class="benefits">
+          <div><i class="fas fa-thumbs-up mx-3 my-2"></i></div>
+          <div class="text-start">
+            <p class="fw-bold">FULL WARRANTY</p>
+            <p>Read About Our Warranty</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__item">
+        <div class="benefits">
+          <div><i class="fas fa-truck mx-3 my-2"></i></div>
+          <div class="text-start">
+            <p class="fw-bold">EXPRESS SHIPPING</p>
+            <p>Local & International Shipping</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__item">
+        <div class="benefits">
+          <div><i class="fas fa-comment-dots mx-3 my-2"></i> </div>
+          <div class="text-start">
+            <p class="fw-bold">MOBILE BLOG</p>
+            <p>Discuss Your Favourite Phone</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__item">
+        <div class="benefits">
+          <div><i class="fas fa-headphones-alt mx-3 my-2"></i></div>
+          <div class="text-start">
+            <p class="fw-bold"> 24/7 SUPPORT</p>
+            <p>Get Full Support Via Chat</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <form class="form my-5 border-top border-3">
+    <div class="form-group  mb-2">
+      <div class="subscribe-text fw-bold">
+        <p>SUBSCRIBE TO THE LATEST SMARTPHONES <br> NEWS & GREAT DEALS WE OFFER</p>
+      </div>
+
+      <div class="input-container">
+        <div class="input-wrapper position-relative">
+          <input type="email" class="form-control" id="emailSubscribeInput" placeholder="ENTER YOUR EMAIL ADDRES">
+          <buton type="submit" class="subscribeButton position-absolute"><i class="far fa-envelope"></i></buton>
+          <div id="error" class="text-danger my-2 mx-1"></div>
+        </div>
+      </div>
+
+      <div class="icons-social">
+        <a>
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a>
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a>
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a>
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+        <a>
+          <i class="fab fa-pinterest-p"></i>
+        </a>
+        <a>
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a>
+          <i class="fas fa-wifi"></i>
+        </a>
+      </div>
+    </div>
+  </form>
+  <footer>
+    <div class="copyright">COPYRIGHT &#169 2015 <span class="text-dark">CODEITSTORE</span> ALL RIGHT RESERVED</div>
+    <div class="payment-container">
+      <div class="mx-2">
+        <img src="./assets/visa-electon-logo.jpg">
+      </div>
+      <div class="mx-2">
+        <img src="./assets/paypal-logo.png">
+      </div>
+      <div class="mx-2">
+        <img src="./assets/visa-logo.jpg">
+      </div>
+      <div class="mx-2">
+        <img src="./assets/mastercard.jpg">
+      </div>
+      <div class="mx-2">
+        <img src="./assets/maestro-logo.png">
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script/script.js"></script>
+  <script src="./script/slider.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
