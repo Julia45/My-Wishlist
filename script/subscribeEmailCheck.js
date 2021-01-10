@@ -1,7 +1,7 @@
 let subscribeButton = document.querySelector(".subscribeButton")
 let subscribeInput = document.getElementById("emailSubscribeInput")
 subscribeButton.addEventListener("click", checkCorrectEmail)
-let errorMessage = document.getElementById("error")
+let errorMessage = document.querySelector(".error")
 
 function checkCorrectEmail() {
   let value = subscribeInput.value

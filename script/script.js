@@ -49,134 +49,134 @@ let originArrayOfPhones = [
   },
   {
     "img": "assets/sm_a715_galaxya71_2ndwave_silver_rside_01.jpg",
-    title: "SAMSUNG GALAXY 71",
+    title: "SAMSUNG NOTE AA45",
     "price": "$280.00",
     id: "9"
   },
   {
     "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
-    title: "HUAWEI SMART",
-    "price": "$550.00",
+    title: "APPLE DUA LIFE",
+    "price": "$340.00",
     id: "10"
   },
   {
     "img": "assets/xiaomi_redmi_note_9_pro_664gb_interstellar_grey_01_2.jpg",
-    title: "XIAOMI RESMI NOTE",
-    "price": "$350.00",
+    title: "XIAOMI REDMI NOTE",
+    "price": "$678.00",
     id: "11"
   },
   {
     "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
-    title: "APPLE IPHONE 11",
-    "price": "$280.00",
+    title: "APPLE IPHONE 12",
+    "price": "$580.00",
     id: "12"
   },
   {
     "img": "assets/samsung_galaxy_a71_black_07.jpg",
-    title: "SAMSUNG GALAXY A71",
-    "price": "$350.00",
+    title: "SAMSUNG GALA NOTE A71",
+    "price": "$789.00",
     id: "13"
   },
   {
     "img": "assets/oppo_mona_right_side_black_01_1.jpg",
-    title: "OPPO MONA BLACK",
-    "price": "$350.00",
+    title: "OPPO MONA REY12",
+    "price": "$453.00",
     id: "14"
   },
   {
     "img": "assets/samsung_galaxy_a31_prism_crush_black_07_1.jpg",
-    title: "SAMSUNG GALAXY A31",
-    "price": "$399.00",
+    title: "SAMSUNG LEGASY A31",
+    "price": "$889.00",
     id: "15"
   },
   {
     "img": "assets/samsung_galaxy_a31_prism_crush_red_07.jpg",
-    title: "SAMSUNG GALAXY A31",
-    "price": "$550.00",
+    title: "XIAOMI RED 34AQ",
+    "price": "$999.00",
     id: "16"
   },
   {
     "img": "assets/sm_a715_galaxya71_2ndwave_silver_rside_01.jpg",
-    title: "SAMSUNG GALAXY 71",
-    "price": "$280.00",
+    title: "SAMSUNG DUO NOTE",
+    "price": "$348.00",
     id: "17"
   },
   {
     "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
-    title: "HUAWEI SMART",
-    "price": "$550.00",
+    title: "HUAWEI SMART AWE",
+    "price": "$876.00",
     id: "18"
   },
   {
     "img": "assets/xiaomi_redmi_note_9_pro_664gb_interstellar_grey_01_2.jpg",
-    title: "XIAOMI RESMI NOTE",
-    "price": "$350.00",
+    title: "XIAOMI RESMI WHITE",
+    "price": "$654.00",
     id: "19"
   },
   {
     "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
-    title: "APPLE IPHONE 11",
-    "price": "$280.00",
+    title: "APPLE IPHONE XS",
+    "price": "$321.00",
     id: "21"
   },
   {
     "img": "assets/samsung_galaxy_a71_black_07.jpg",
-    title: "SAMSUNG GALAXY A71",
-    "price": "$350.00",
+    title: "SAMSUNG LOAF",
+    "price": "$812.00",
     id: "21"
   },
   {
     "img": "assets/oppo_mona_right_side_black_01_1.jpg",
-    title: "OPPO MONA BLACK",
-    "price": "$350.00",
+    title: "OPPO MONA LISA",
+    "price": "$934.00",
     id: "22"
   },
   {
     "img": "assets/samsung_galaxy_a31_prism_crush_black_07_1.jpg",
-    title: "SAMSUNG GALAXY A31",
-    "price": "$399.00",
+    title: "SAMSUNG LEGRAE",
+    "price": "$745.00",
     id: "23"
   },
   {
     "img": "assets/samsung_galaxy_a31_prism_crush_red_07.jpg",
-    title: "SAMSUNG GALAXY A31",
-    "price": "$550.00",
+    title: "SAMSUNG ULTRA A00",
+    "price": "$178.00",
     id: "24"
   },
   {
     "img": "assets/sm_a715_galaxya71_2ndwave_silver_rside_01.jpg",
-    title: "SAMSUNG GALAXY 71",
-    "price": "$280.00",
+    title: "SAMSUNG MYWORLD QA",
+    "price": "$255.00",
     id: "25"
   },
   {
     "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
-    title: "HUAWEI SMART",
-    "price": "$550.00",
+    title: "HUAWEI SMART XI",
+    "price": "$333.00",
     id: "26"
   },
   {
     "img": "assets/xiaomi_redmi_note_9_pro_664gb_interstellar_grey_01_2.jpg",
-    title: "XIAOMI RESMI NOTE",
-    "price": "$350.00",
+    title: "XIAOMI CODE A12",
+    "price": "$546.00",
     id: "27"
   },
   {
     "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
-    title: "APPLE IPHONE 11",
-    "price": "$280.00",
+    title: "APPLE LEGEND 11",
+    "price": "$444.00",
     id: "28"
   },
   {
     "img": "assets/samsung_galaxy_a71_black_07.jpg",
     title: "SAMSUNG GALAXY A71",
-    "price": "$350.00",
+    "price": "$780.00",
     id: "29"
   },
   {
     "img": "assets/oppo_mona_right_side_black_01_1.jpg",
     title: "OPPO MONA BLACK",
-    "price": "$350.00",
+    "price": "$888.00",
     id: "30"
   },
 ]
@@ -278,13 +278,13 @@ function createNumberOfPages() {
     pageElem.append(pageElemLink)
     paginationContainer.append(pageElem)
   }
-  paginationContainer.addEventListener("click", function () {
-    currectPage = +event.target.innerHTML;
-    document.querySelector(".goods-wrapper").innerHTML = ""
-    generatepartOfPhonesToShow(currectPage)
-  });
-
 }
+
+document.querySelector(".pagination-container").addEventListener("click", function () {
+  currectPage = +event.target.innerHTML;
+  document.querySelector(".goods-wrapper").innerHTML = ""
+  generatepartOfPhonesToShow(currectPage)
+});
 
 function generatepartOfPhonesToShow(page) {
   let startIndex = (page - 1) * phonesPerPage;
@@ -316,9 +316,8 @@ clearListButton.disabled = true;
 
 
 inPutFilter.addEventListener("input", function () {
-  if (inPutFilter.value) {
-    clearListButton.disabled = false;
-  }
+  clearListButton.disabled = !inPutFilter.value;
+
   arrayOfPhones = originArrayOfPhones.filter((elem) => { return elem.title.toLowerCase().includes(inPutFilter.value.toLowerCase()) })
   document.querySelector(".goods-wrapper").innerHTML = ""
   generatepartOfPhonesToShow(currectPage)
@@ -337,14 +336,3 @@ navBarToggler.addEventListener("click", function () {
   let menu = document.querySelector(".collapse ")
   menu.classList.toggle("show")
 })
-
-
-
-
-
-
-
-
-
-
-

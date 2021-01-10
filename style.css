@@ -37,6 +37,8 @@ a.active {
 .page-item:last-child .page-link {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 
 .products-amount {
@@ -234,7 +236,8 @@ a.active {
 
 #emailSubscribeInput {
   width: 300px;
-  font-size: 15px;
+  font-size: 12px;
+  padding: 10px;
 }
 
 .subscribeButton {
@@ -312,6 +315,10 @@ footer {
 
 .emailSubscribeInput-invalid {
   border: 2px solid rgb(227, 69, 69);
+}
+
+.emailSubscribeInput-valid {
+  border: 2px solid green;
 }
 
 .page-item.active .page-link {
