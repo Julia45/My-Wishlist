@@ -25,7 +25,7 @@ let originArrayOfPhones = [
   },
   {
     "img": "assets/samsung_galaxy_a71_black_07.jpg",
-    title: "SAMSUNG GALAXY A71",
+    title: "SAMSUNG GALAXY 44",
     "price": "$350.00",
     id: "5"
   },
@@ -37,13 +37,13 @@ let originArrayOfPhones = [
   },
   {
     "img": "assets/samsung_galaxy_a31_prism_crush_black_07_1.jpg",
-    title: "SAMSUNG GALAXY A31",
+    title: "SAMSUNG XY 56",
     "price": "$399.00",
     id: "7"
   },
   {
     "img": "assets/samsung_galaxy_a31_prism_crush_red_07.jpg",
-    title: "SAMSUNG GALAXY A31",
+    title: "SAMSUNG GALAXY 31",
     "price": "$550.00",
     id: "8"
   },
@@ -73,7 +73,7 @@ let originArrayOfPhones = [
   },
   {
     "img": "assets/samsung_galaxy_a71_black_07.jpg",
-    title: "SAMSUNG GALA NOTE A71",
+    title: "SAMSUNG GALA A71",
     "price": "$789.00",
     id: "13"
   },
@@ -145,7 +145,7 @@ let originArrayOfPhones = [
   },
   {
     "img": "assets/sm_a715_galaxya71_2ndwave_silver_rside_01.jpg",
-    title: "SAMSUNG MYWORLD QA",
+    title: "SAMSUNG MYWORLD",
     "price": "$255.00",
     id: "25"
   },
@@ -169,7 +169,7 @@ let originArrayOfPhones = [
   },
   {
     "img": "assets/samsung_galaxy_a71_black_07.jpg",
-    title: "SAMSUNG GALAXY A71",
+    title: "SAMSUNG GALAXY 71",
     "price": "$780.00",
     id: "29"
   },
@@ -280,10 +280,14 @@ function createNumberOfPages() {
   }
 }
 
-document.querySelector(".pagination-container").addEventListener("click", function () {
-  currectPage = +event.target.innerHTML;
-  document.querySelector(".goods-wrapper").innerHTML = ""
-  generatepartOfPhonesToShow(currectPage)
+document.querySelector(".pagination-container").addEventListener("click", function (event) {
+  if (event.target.classList.contains('page-link')) {    
+    currectPage = +event.target.innerHTML;
+    document.querySelector(".goods-wrapper").innerHTML = ""
+    generatepartOfPhonesToShow(currectPage)
+  } else {
+    return
+  }
 });
 
 function generatepartOfPhonesToShow(page) {
