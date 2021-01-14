@@ -6,7 +6,7 @@ let originArrayOfPhones = [
     id: "1"
   },
   {
-    "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
+    "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
     title: "HUAWEI SMART",
     "price": "$550.00",
     id: "2"
@@ -54,7 +54,7 @@ let originArrayOfPhones = [
     id: "9"
   },
   {
-    "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
+    "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
     title: "APPLE DUA LIFE",
     "price": "$340.00",
     id: "10"
@@ -102,7 +102,7 @@ let originArrayOfPhones = [
     id: "17"
   },
   {
-    "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
+    "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
     title: "HUAWEI SMART AWE",
     "price": "$876.00",
     id: "18"
@@ -150,7 +150,7 @@ let originArrayOfPhones = [
     id: "25"
   },
   {
-    "img": "assets/_huawei_p_smart_2021_4128_crush_green_1.jpg",
+    "img": "assets/apple_iphone_11_64gb_black_0_3.jpg",
     title: "HUAWEI SMART XI",
     "price": "$333.00",
     id: "26"
